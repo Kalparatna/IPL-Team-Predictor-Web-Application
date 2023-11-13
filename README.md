@@ -36,7 +36,7 @@ pip install Flask pandas numpy matplotlib seaborn
 2. Submit the form to get the predicted fantasy cricket team.
 
 ## Project Structure
-- `app.py`: Flask application script.
+- `dream.py`: Flask application script.
 - `Teams/`: Folder containing player information for each team.
 - `static/`: Folder for static assets (CSS, images, etc.).
 - `templates/`: Folder containing HTML templates.
