@@ -1,69 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantasy Cricket Team Predictor</title>
-</head>
+# Fantasy Cricket Team Predictor
 
-<body>
+## Overview
+This web application predicts fantasy cricket teams based on player statistics. It takes input from the user, selects players for two teams, analyzes their performance, and predicts the best fantasy cricket team.
 
-    <h1>Fantasy Cricket Team Predictor</h1>
+## Prerequisites
+Make sure you have the following dependencies installed before running the application:
+- Flask
+- pandas
+- numpy
+- matplotlib
+- seaborn (optional, uncomment if used)
 
-    <h2>Overview</h2>
-    <p>This web application predicts fantasy cricket teams based on player statistics. It takes input from the user, selects players for two teams, analyzes their performance, and predicts the best fantasy cricket team.</p>
+You can install these dependencies using the following command:
+```bash
+pip install Flask pandas numpy matplotlib seaborn
+```
 
-    <h2>Prerequisites</h2>
-    <p>Make sure you have the following dependencies installed before running the application:</p>
-    <ul>
-        <li>Flask</li>
-        <li>pandas</li>
-        <li>numpy</li>
-        <li>matplotlib</li>
-        <li>seaborn (optional, uncomment if used)</li>
-    </ul>
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fantasy-cricket-predictor.git
+   cd fantasy-cricket-predictor
+   ```
 
-    <p>You can install these dependencies using the following command:</p>
-    <pre><code>pip install Flask pandas numpy matplotlib seaborn</code></pre>
+2. Run the Flask application:
+   ```bash
+   python app.py
+   ```
 
-    <h2>Getting Started</h2>
-    <ol>
-        <li>Clone the repository:
-            <pre><code>git clone https://github.com/your-username/fantasy-cricket-predictor.git
-cd fantasy-cricket-predictor</code></pre>
-        </li>
-        <li>Run the Flask application:
-            <pre><code>python app.py</code></pre>
-        </li>
-        <li>Open your web browser and navigate to <a href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a> to use the application.</li>
-    </ol>
+3. Open your web browser and navigate to `http://127.0.0.1:5000/` to use the application.
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Select players for Team 1 and Team 2.</li>
-        <li>Submit the form to get the predicted fantasy cricket team.</li>
-    </ol>
+## Usage
+1. Select players for Team 1 and Team 2.
+2. Submit the form to get the predicted fantasy cricket team.
 
-    <h2>Project Structure</h2>
-    <ul>
-        <li><code>app.py</code>: Flask application script.</li>
-        <li><code>Teams/</code>: Folder containing player information for each team.</li>
-        <li><code>static/</code>: Folder for static assets (CSS, images, etc.).</li>
-        <li><code>templates/</code>: Folder containing HTML templates.</li>
-    </ul>
+## Project Structure
+- `app.py`: Flask application script.
+- `Teams/`: Folder containing player information for each team.
+- `static/`: Folder for static assets (CSS, images, etc.).
+- `templates/`: Folder containing HTML templates.
 
-    <h2>Additional Notes</h2>
-    <ul>
-        <li>Ensure you have the required libraries installed by running the provided <code>pip install</code> command.</li>
-        <li>Customize the code as needed for your specific requirements.</li>
-        <li>Modify the <code>README.md</code> file to provide more details about the project and usage instructions.</li>
-        <li>This is a sample README file; make sure to update it based on your actual project details.</li>
-    </ul>
+## Contacts
+For any inquiries, issues, or contributions, please contact:
 
-    <h2>License</h2>
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+- Your Name
+  - Email: kalparatna223@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/Kalparatna)
 
-</body>
+## Additional Notes
+- Ensure you have the required libraries installed by running the provided `pip install` command.
+- Customize the code as needed for your specific requirements.
+- Modify the `README.md` file to provide more details about the project and usage instructions.
+- This is a sample README file; make sure to update it based on your actual project details.
 
-</html>
+## License
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Replace "Your Name," "kalparatna223@gmail.com," and "[GitHub Profile](https://github.com/Kalparatna)" 
