@@ -10,7 +10,7 @@ Make sure you have the following dependencies installed before running the appli
 - pandas
 - numpy
 - matplotlib
-- seaborn (optional, uncomment if used)
+- seaborn 
 
 You can install these dependencies using the following command:
 ```bash
@@ -26,7 +26,7 @@ pip install Flask pandas numpy matplotlib seaborn
 
 2. Run the Flask application:
    ```bash
-   python app.py
+   python dream.py
    ```
 
 3. Open your web browser and navigate to `http://127.0.0.1:5000/` to use the application.
