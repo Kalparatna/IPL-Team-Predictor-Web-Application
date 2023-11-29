@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Players</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='player.css') }}">
+</head>
+<body>
+
+<h1>Select Playing 11</h1>
+{% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+{% endif %}
+
+<form method="post">
+    <div class="team-container" id="team1">
+        <h2>Team 1</h2>
+        {% for player1 in players1 %}
+            <div class="player-item">
+                <input type="checkbox" name="player1" value="{{ player1 }}" class="player-checkbox" onchange="updateCount('team1', this)">
+                <span>{{ player1 }}</span>
+                <div class="count"></div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="team-container" id="team2">
+        <h2>Team 2</h2>
+        {% for player2 in players2 %}
+            <div class="player-item">
+                <input type="checkbox" name="player2" value="{{ player2 }}" class="player-checkbox" onchange="updateCount('team2', this)">
+                <span>{{ player2 }}</span>
+                <div class="count"></div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <br style="clear: both;">
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    function updateCount(teamId, checkbox) {
+        var countElement = checkbox.parentNode.querySelector('.count');
+        var checkedCount = document.querySelectorAll('#' + teamId + ' .player-checkbox:checked').length;
+
+        // Only display the count if it's greater than 0
+        countElement.textContent = checkedCount > 0 ? checkedCount : '';
+    }
+</script>
+
+</body>
+</html>
