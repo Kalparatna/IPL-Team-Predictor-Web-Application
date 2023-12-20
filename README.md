@@ -1,6 +1,3 @@
-Certainly! Below is the modified README.md file with the added section for the project output result video:
-
-```markdown
 # Fantasy Cricket Team Predictor
 
 ## Overview
@@ -42,14 +39,19 @@ pip install Flask pandas numpy matplotlib seaborn
 - `Teams/`: Folder containing player information for each team.
 - `static/`: Folder for static assets (CSS, images, etc.).
 - `templates/`: Folder containing HTML templates.
+- `videos/`: Folder for project videos.
 
 ## Project Output Result Video
-Check out the project output result in this video: [Result.mp4](static/videos/Result.mp4)
+Watch the project output result by clicking the link below:
+
+[![Project Output Video](https://img.shields.io/badge/Project%20Output%20Video-Watch%20Now-orange)](videos/Result.mp4)
+
+Replace `videos/Result.mp4` with the actual relative path to your video file based on your project structure.
 
 ## Contacts
 For any inquiries, issues, or contributions, please contact:
 
-- Your Name
+- Kalparatna
   - Email: kalparatna223@gmail.com
   - GitHub: [GitHub Profile](https://github.com/Kalparatna)
 
@@ -57,10 +59,7 @@ For any inquiries, issues, or contributions, please contact:
 - Ensure you have the required libraries installed by running the provided `pip install` command.
 - Customize the code as needed for your specific requirements.
 - Modify the `README.md` file to provide more details about the project and usage instructions.
-- This is a sample README file; make sure to update it based on your actual project details.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Make sure to replace "your-username" with your actual GitHub username and update other information as needed.
