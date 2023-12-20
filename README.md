@@ -1,6 +1,4 @@
-Certainly! You can include images in your README.md file using the standard Markdown image syntax. Here's the modified README.md file with added images:
 
-```markdown
 # Fantasy Cricket Team Predictor
 
 ## Overview
