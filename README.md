@@ -60,9 +60,7 @@ Here are some screenshots of the application:
 ## Project Output Result Video
 Watch the project output result by clicking the image below:
 
-[![Project Output Video](videos/video_preview.gif)](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
-
-Replace `video_preview.gif` with the actual path or URL to your video preview image or GIF.
+[![Project Output Video]](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
 
 ## Contacts
 For any inquiries, issues, or contributions, please contact:
