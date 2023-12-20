@@ -1,4 +1,4 @@
-Certainly! Here's the corrected README.md file with the actual Google Drive video link:
+Certainly! You can include images in your README.md file using the standard Markdown image syntax. Here's the modified README.md file with added images:
 
 ```markdown
 # Fantasy Cricket Team Predictor
@@ -42,16 +42,34 @@ pip install Flask pandas numpy matplotlib seaborn
 - `Teams/`: Folder containing player information for each team.
 - `static/`: Folder for static assets (CSS, images, etc.).
 - `templates/`: Folder containing HTML templates.
+- `videos/`: Folder for project videos and images.
+
+## Screenshots
+Here are some screenshots of the application:
+
+- Login Page
+  ![Login Page](videos/login.png)
+
+- Home Page
+  ![Home Page](videos/Home.png)
+
+- Contact Page
+  ![Contact Page](videos/contact.png)
+
+- Result Page
+  ![Result Page](videos/Result.png)
 
 ## Project Output Result Video
-Watch the project output result by clicking the link below:
+Watch the project output result by clicking the image below:
 
-[![Project Output Video](https://img.shields.io/badge/Project%20Output%20Video-Watch%20Now-orange)](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
+[![Project Output Video](videos/video_preview.gif)](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
+
+Replace `video_preview.gif` with the actual path or URL to your video preview image or GIF.
 
 ## Contacts
 For any inquiries, issues, or contributions, please contact:
 
-- Your Name
+- Kalparatna Mahajan
   - Email: kalparatna223@gmail.com
   - GitHub: [GitHub Profile](https://github.com/Kalparatna)
 
@@ -63,6 +81,4 @@ For any inquiries, issues, or contributions, please contact:
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Replace "your-username" with your actual GitHub username. The Google Drive video link is now correctly included in the README. Users can click on the badge to watch the video directly on Google Drive.
