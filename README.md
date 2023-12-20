@@ -58,9 +58,9 @@ Here are some screenshots of the application:
   ![Result Page](videos/Result.png)
 
 ## Project Output Result Video
-Watch the project output result by clicking the image below:
+Watch the project output result by clicking below.
 
-[![Project Output Video]](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
+[![Click Here]](https://drive.google.com/file/d/1xdg22R2csdGbAvZakXovRlCtF4PIjtNg/view?usp=drivesdk)
 
 ## Contacts
 For any inquiries, issues, or contributions, please contact:
